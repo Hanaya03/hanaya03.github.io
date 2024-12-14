@@ -1,0 +1,231 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    background-color: #1F2937;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bodyDiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*start of header styling*/
+
+    .greaterHeaderCont{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #a7a9ac;
+        background-color: #1F2937;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-grow: 2;
+        margin: 0px;
+        height: 30%;
+    }
+
+    .lesserHeaderCont{
+        /*border: rgb(242, 255, 0) solid 1px;*/
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerContBot, .headerContTop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .headerContBot{
+        justify-content: flex-end;
+    }
+    /*styling for headerContTop*/
+    
+        .logo{
+            /*border: solid 1px red;*/
+            font-weight: bolder;
+            display: flex;
+            font-size: 24px;
+            color: #f9faf8;
+        }
+
+        .links{
+            gap: 20px;
+            /*border: solid 1px red;*/
+            height: fit-content;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+        }
+    
+    /*styling for headerContTop*/
+
+    /*styling for headerContBot*/
+        button{
+            background-color: #3882f6;
+            border-radius: 12px;
+            font-size: large;
+            color: white;
+            width: 200;
+        }
+
+        .subtext{
+            margin: 0 0 0 0;
+        }
+
+        .mainText{
+            margin-top: 0%;
+            margin-bottom: 0;
+            font-weight: bolder;
+            font-size: 48px;
+            color: #f9faf8;
+        }
+
+        .headerContBotSubCont{
+            width: 50%;
+            gap: 10px;
+            height: fit-content;
+            display: flex;
+            flex-direction: column; 
+            justify-content: space-around;
+        }
+
+        .headerImg{
+            width: 50%;
+            height: auto;
+        }
+    /*styling for headerContBot*/
+
+/*end of header styling*/
+
+/*start of info section styling*/
+
+
+.infoDiv{
+    justify-content: flex-start;
+    /* border: 2px solid red; */
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+}
+
+.infoHeaderText{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.imageNText{
+    width: 250px;
+    /* border: 2px solid black; */
+    align-items: center;
+    row-gap: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBodyImgs{
+    border-radius: 25px;
+    border: 2px solid blue;
+    width: 50%;
+}
+
+.infoBodyImgText{
+    /* border: 2px solid black; */
+    vertical-align: bottom;
+}
+
+.infoBody{
+    /* border: 2px solid blue; */
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+/*end of info section styling*/
+
+/*start of quote section styling*/
+.quoteDiv{
+    height: 25%;
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteText{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 50%;
+    display: flex;
+}
+
+.quoteAuthor{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+/*end of quote section styling*/
+
+/*start of call to action section styling*/
+
+.callToActionDiv{
+    background-color: white;
+    display: flex;
+    height: 25%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToActionHeader{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.callToActionText{
+    font-size: 12px;
+    color: white;
+}
+
+.textNButtonDiv{
+    background-color: #3882f6;
+    display: flex;
+    width: 75%;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.callToActionButton{
+    font-size: 18px;
+    height: fit-content;
+    border-color: white;
+}
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*end of call to action section styling*/
